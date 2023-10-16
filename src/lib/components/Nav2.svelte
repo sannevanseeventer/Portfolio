@@ -13,6 +13,7 @@
 </section>
 
 <style>
+
   h2 {
     font-family: "Bebas Neue";
     letter-spacing: .1rem;
@@ -31,11 +32,11 @@
 
   ul li a {
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: black;
-    font-family: "Roboto";
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-family: "Poppins";
+    letter-spacing: .05rem;
+    font-size: 0.7rem;
   }
 
   .nav-bar {

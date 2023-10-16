@@ -27,7 +27,8 @@
 
       <div class="content-container">
       <h2>The Ocean Cleanup</h2>
-      <span class="material-symbols-outlined">arrow_right_alt</span>
+      <i class="ri-arrow-right-circle-fill"></i>
+        
     </div>
     <div class="line"></div>
     </div>
@@ -36,7 +37,8 @@
       <img src="/spatwater.png" alt="foto van project Spatwater" />
       <div class="content-container">
       <h2>SPATwater</h2>
-      <span class="material-symbols-outlined">arrow_right_alt</span>
+      <i class="ri-arrow-right-circle-fill"></i>
+        
       </div>
       <div class="line"></div>
     </div>
@@ -47,7 +49,7 @@
       <img src="/ultitv2.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>UltiTV</h2>
-      <span class="material-symbols-outlined">arrow_right_alt</span>
+      <i class="ri-arrow-right-circle-fill"></i>
       </div>
       <div class="line"></div>
     </div>
@@ -58,7 +60,7 @@
       <img src="/bookshelf.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>Squad page FDND jaar 2</h2>
-      <span class="material-symbols-outlined">arrow_right_alt</span>
+      <i class="ri-arrow-right-circle-fill"></i>
       </div>
       <div class="line"></div>
     </div>
@@ -67,8 +69,8 @@
     <div class="project-2">
       <img src="/squadpage4.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
-      <h2>Squad page FDND jaar</h2>
-      <span class="material-symbols-outlined">arrow_right_alt</span>
+      <h2>Squad page FDND jaar 1</h2>
+      <i class="ri-arrow-right-circle-fill"></i>
       </div>
       <div class="line"></div>
     </div>
@@ -78,6 +80,7 @@
 </section>
 
 <style>
+
   section {
     width: 100vw;
     height: auto;
@@ -86,21 +89,20 @@
   }
 
   .line {
-    border-bottom: 1px solid rgb(206, 206, 206);
-    margin-top: 0.2rem;
+    border-bottom: 1px solid #e7e7e7;
+    margin-top: 0.3rem;
   }
 
-  h1{
+  /* h1{
     font-size: 1.1rem;
-    color: black;
-    font-family: "Roboto";
-    font-weight: 600;
-    text-transform: uppercase;
+    color: #1273ea;
+    font-family: "Poppins";
+    font-weight: 400;
     padding-left: 1rem;
     margin-bottom: 1rem;
-  }
+  } */
  
-
+/* 
   .marquee {
     display: flex;
     overflow: hidden;
@@ -129,11 +131,11 @@
   }
   .scroll {
     animation: scroll 30s linear infinite;
-  }
+  } */
 
   h2 {
-    font-family: "Roboto";
-    font-size: 1rem;
+    font-family: "Poppins";
+    font-size: .9rem;
     font-weight: 400;
   }
   .project-container {
@@ -156,10 +158,10 @@
 
   }
 
-.material-symbols-outlined {
-  font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24;
-color: black;
-}
+  i{
+    color:  #1273ea;
+font-size: 1.6rem;
+  }
 
 
 </style>

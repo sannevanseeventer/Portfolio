@@ -61,6 +61,7 @@ ScrollTrigger.create({
   <style>
 @import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
 .races {
 	width:fit-content;
 	display:flex;
@@ -68,12 +69,12 @@ ScrollTrigger.create({
 }
 
 p{
-    font-size: 1rem;
+    font-size: .9rem;
     color: rgb(0, 0, 0);
     text-align: left;
     margin: auto;
-    font-family: "Roboto";
-    padding: 1rem;
+    font-family: "Poppins";
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .races h2 {
@@ -89,7 +90,7 @@ p{
 }
 
 .races h2:last-of-type {
-	background:#1b82ff;
+	background: #1273ea;
     color: white;
 }
 
@@ -105,4 +106,27 @@ p{
 	height:60vh;
 }
 
+@media only screen and (min-width: 1024px) {
+
+.races h2 {
+	font-size:26.5vw;
+	margin-left: 2rem;
+}
+
+.races h2:last-of-type {
+	padding-left: 5rem;
+
+}
+
+.space-50vh {
+	height:25vh;
+}
+
+p{
+    font-size: 1.5rem;
+	margin: 3rem 0rem 1rem 2.5rem;
+	max-width: 35rem;
+}
+
+}
   </style>

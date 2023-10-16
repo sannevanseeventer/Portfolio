@@ -16,13 +16,16 @@
 <p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
 
 <ul>
-  <li><a href="www.google.com">Bekijk dashboard</a></li>
+  <li><a href="www.google.com">Bekijk project</a></li>
 </ul>
 
 </div>
 </section>
 
 <style>
+  	@import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
   section{
    width: 100vw;
     height: auto;
@@ -56,10 +59,11 @@
     padding: .3rem .5rem;
     background-color: #1b82ff;
     color: white;
+    font-family: "Poppins";
     cursor: pointer;
     text-transform: uppercase;
     font-size: .8rem;
-    font-weight: 500;
+    letter-spacing: .03rem;
   }
 
   img{
