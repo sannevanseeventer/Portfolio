@@ -58,38 +58,41 @@ details.forEach((detail, index)=> {
 });
 </script>
 
-<section>
+<section id="projects">
   <!-- <div class="spacer"></div> -->
 
 <div class="gallery">
 	<div class="left">
 		<div class="desktopContent">
+
 			<div class="desktopContentSection">
 				<h1>The Ocean Cleanup</h1>
 				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <li><a href="www.google.com">Bekijk project</a></li>
+			  <a href="https://repulsive-undershirt-duck.cyclic.app/">Bekijk project</a>
       </div>
+
 			<div class="desktopContentSection">
         <h1>SPATwater</h1>
-				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <li><a href="www.google.com">Bekijk project</a></li>
+				<p>Voor een startup genaamd SPATwater heb ik een website mogen bouwen met een speels en creatieve uitstraling. Er zit een parallax in verwerkt en de illustraties heb ik zelf gemaakt. </p>
+			  <a href="https://spatwater.netlify.app/">Bekijk project</a>
       </div>
+
 			<div class="desktopContentSection">
         <h1>UltiTV</h1>
-				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <li><a href="www.google.com">Bekijk project</a></li>
+				<p>Voor UltiTV heb ik meegewerkt aan een redesign voor het commentators dashboard, om tijdens wedstrijden de score bij te houden en zichzelf in te lezen over de informatie van de spelers. </p>
+			  <a href="https://rich-gray-barnacle-slip.cyclic.app/">Bekijk project</a>
      
       </div>
 			<div class="desktopContentSection">
         <h1>Squad page FDND jaar 2</h1>
-				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <li><a href="www.google.com">Bekijk project</a></li>
+				<p>In mijn tweede studiejaar kreeg ik de opdracht om een  overzichtspagina te ontwerpen met alle online visitekaartjes op basis van een headless CMS en framework. Het idee is een boekenkast met in de boeken de studenten van dat jaar.  </p>
+			  <a href="https://fdnd-yearbooks.netlify.app/">Bekijk project</a>
       </div>
 
       <div class="desktopContentSection">
         <h1>Squad page FDND jaar 1</h1>
-				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <li><a href="www.google.com">Bekijk project</a></li>
+				<p>In mijn eerste studiejaar kreeg ik de opdracht om in een team een overzichtspagina te ontwerpen met alle online visitekaartjes van mijn mede studenten. </p>
+			  <a href="https://long-slug-loafers.cyclic.app/">Bekijk project</a>
       </div>
 
 		</div>
@@ -133,11 +136,11 @@ details.forEach((detail, index)=> {
   <!-- GOOOOD SECTION -->
   <div class="project-container">
     <div class="project-1">
-      <a href="/OceanCleanup"><img src="/oceancleanup.png" alt="foto van project OceanCleanup" /></a>
+     <img src="/oceancleanup.png" alt="foto van project OceanCleanup" />
 
       <div class="content-container">
-      <h2>The Ocean Cleanup</h2>
-      <i class="ri-arrow-right-circle-fill"></i>
+      <h2>Ocean Cleanup</h2>
+      <a href="/OceanCleanup"><i class="ri-arrow-right-circle-fill"></i></a>
         
     </div>
     <div class="line"></div>
@@ -147,7 +150,7 @@ details.forEach((detail, index)=> {
       <img src="/spatwater.png" alt="foto van project Spatwater" />
       <div class="content-container">
       <h2>SPATwater</h2>
-      <i class="ri-arrow-right-circle-fill"></i>
+      <a href="/SpatWater"><i class="ri-arrow-right-circle-fill"></i></a>
         
       </div>
       <div class="line"></div>
@@ -159,7 +162,7 @@ details.forEach((detail, index)=> {
       <img src="/ultitv2.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>UltiTV</h2>
-      <i class="ri-arrow-right-circle-fill"></i>
+      <a href="/UltiTv"><i class="ri-arrow-right-circle-fill"></i></a>
       </div>
       <div class="line"></div>
     </div>
@@ -170,17 +173,17 @@ details.forEach((detail, index)=> {
       <img src="/bookshelf.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>Squad page FDND jaar 2</h2>
-      <i class="ri-arrow-right-circle-fill"></i>
+      <a href="/Squad2"><i class="ri-arrow-right-circle-fill"></i></a>
       </div>
       <div class="line"></div>
     </div>
 
 
     <div class="project-2">
-      <img src="/squadpage4.png" alt="foto van project OceanCleanup" />
+      <img src="/squadpage3.png" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>Squad page FDND jaar 1</h2>
-      <i class="ri-arrow-right-circle-fill"></i>
+      <a href="/Squad1"><i class="ri-arrow-right-circle-fill"></i></a>
       </div>
       <div class="line"></div>
     </div>
@@ -206,7 +209,7 @@ details.forEach((detail, index)=> {
 
   .line {
     border-bottom: 1px solid #e7e7e7;
-    margin-top: 0.3rem;
+    margin-top: .5rem;
   }
 
   /* h1{
@@ -271,12 +274,18 @@ details.forEach((detail, index)=> {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: .5rem;
 
+  }
+
+  a{
+    text-decoration: none;
   }
 
   i{
     color:  #1273ea;
 font-size: 1.6rem;
+cursor: pointer;
   }
 
   @media only screen and (min-width: 1024px) {
@@ -290,6 +299,8 @@ font-size: 1.6rem;
 .gallery h1 {
 	font-size:clamp(1em, 4vw, 2.5em);
   margin-bottom: 1rem;
+  font-family: "poppins";
+  font-weight: 500;
 }
 
 .gallery p {
@@ -320,8 +331,8 @@ font-size: 1.6rem;
 }
 
 .desktopContent {
-	margin:auto;
-	width:80%;
+  margin: auto;
+	width:75%;
 }
 
 .desktopContentSection {
@@ -335,9 +346,10 @@ font-size: 1.6rem;
 
 .desktopPhotos {
 	width:40vw;
-	height:35vw;
+	height:30vw;
 	position:relative;
 	overflow:hidden;
+  margin: auto;
 }
 
 .desktopPhoto {
@@ -387,17 +399,14 @@ font-size: 1.6rem;
   background-repeat: no-repeat;
 }
 
-li{
-  list-style-type: none;
-}
 a{
+  max-width: 9.5rem;
     text-decoration: none;
     padding: .5rem 1rem;
-    background-color: #1b82ff;
+    background-color: #1273ea;
     color: white;
     font-family: "Poppins";
     cursor: pointer;
-    text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: .03rem;
   }

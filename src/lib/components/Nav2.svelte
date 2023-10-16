@@ -7,7 +7,7 @@
     <h2>Savase</h2>
 
     <ul>
-      <li><a href="www.google.com">Terug naar projecten</a></li>
+      <li><a href="/#projects">Terug naar projecten</a></li>
     </ul>
   </div>
 </section>
@@ -16,7 +16,7 @@
 
   h2 {
     font-family: "Bebas Neue";
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     margin-left: 1rem;
     color: black;
   }

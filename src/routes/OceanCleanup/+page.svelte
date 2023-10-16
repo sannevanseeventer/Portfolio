@@ -8,16 +8,18 @@
 
   <div class="project1-container">
 
+    <h2>Ocean Cleanup</h2>
+
+<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
+
+<ul>
+  <li><a href="https://repulsive-undershirt-duck.cyclic.app/">Bekijk project</a></li>
+</ul>
+
+
 <img src="/oceancleanup.png" alt="foto van project OceanCleanup" />
 <img src="/oceancleanup2.png" alt="foto van project OceanCleanup" />
 
-<h2>Ocean Cleanup</h2>
-
-<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-
-<ul>
-  <li><a href="www.google.com">Bekijk project</a></li>
-</ul>
 
 </div>
 </section>
@@ -39,13 +41,15 @@
 
   h2{
     font-size: 1.2rem;
-    text-transform: uppercase;
     margin-bottom: 1rem;
+    font-family: "poppins";
+    font-weight: 500;
   }
 
   p{
     margin-bottom: 1rem;
     font-size: 0.9rem;
+    font-family: "poppins";
   }
 
   ul li{
@@ -61,7 +65,6 @@
     color: white;
     font-family: "Poppins";
     cursor: pointer;
-    text-transform: uppercase;
     font-size: .8rem;
     letter-spacing: .03rem;
   }

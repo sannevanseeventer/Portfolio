@@ -7,8 +7,8 @@
     <h2>Savase</h2>
 
     <ul>
-      <li><a href="www.google.com">Projecten</a></li>
-      <li><a href="www.google.com"><span>Contact</span></a></li>
+      <li><a href= #projects >Projecten</a></li>
+      <li><a href=#contact><span>Contact</span></a></li>
     </ul>
   </div>
 </section>
@@ -18,7 +18,7 @@
 
   h2 {
     font-family: "Bebas Neue";
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     margin-left: 1rem;
     color: black;
   }
@@ -81,14 +81,6 @@ ul li a {
   a span{
     padding: .5rem 1rem;
   }
-
-
-
-
-
-
-
-
 }
 
 </style>

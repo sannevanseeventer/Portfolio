@@ -1,19 +1,19 @@
 <script>
 </script>
 
-<section>
+<section id="contact">
   <div class="contact">
     <p>Ben jij klaar om met mij op digitaal avontuur te gaan? Laten we samen creëren en digitale dromen werkelijkheid maken.</p>
     <h2>contact</h2>
 
     <div class="footer">
     <ul>
-      <li><a href="https://www.linkedin.com/in/sanne-van-seeventer-51ab22bb/"><i class="ri-linkedin-box-fill"></i></a></li>
-      <li><a href="https://github.com/sannevanseeventer?tab=repositories"><i class="ri-github-fill"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/sanne-van-seeventer-51ab22bb/"><i class="ri-mail-fill"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/sanne-van-seeventer-51ab22bb/" aria-label="link naar linkedin"><i class="ri-linkedin-box-fill"></i></a></li>
+      <li><a href="https://github.com/sannevanseeventer?tab=repositories" aria-label="link naar github"><i class="ri-github-fill"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/sanne-van-seeventer-51ab22bb/" aria-label="link naar mail"><i class="ri-mail-fill"></i></a></li>
     </ul>
 
- <a href="www.google.com"><span>Terug naar projecten</span></a>
+ <a href=#home><span>Terug naar boven</span></a>
   </div>
   </div>
 </section>
