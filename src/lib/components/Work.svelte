@@ -2,13 +2,164 @@
 </script>
 
 <section>
-  <h2>Work</h2>
+  <!-- <div class="line" /> -->
+<!-- 
+  <div class="marquee">
+    <div class="marquee-content scroll">
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+    </div>
+    <div class="marquee-content scroll">
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+      <div>Projecten -</div>
+    </div>
+  </div> -->
+
+  <!-- <h1>Projecten</h1> -->
+
+  <div class="project-container">
+    <div class="project-1">
+      <a href="/OceanCleanup"><img src="/oceancleanup.png" alt="foto van project OceanCleanup" /></a>
+
+      <div class="content-container">
+      <h2>The Ocean Cleanup</h2>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+    </div>
+    <div class="line"></div>
+    </div>
+
+    <div class="project-3">
+      <img src="/spatwater.png" alt="foto van project Spatwater" />
+      <div class="content-container">
+      <h2>SPATwater</h2>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+      </div>
+      <div class="line"></div>
+    </div>
+
+
+
+    <div class="project-4">
+      <img src="/ultitv2.png" alt="foto van project OceanCleanup" />
+      <div class="content-container">
+      <h2>UltiTV</h2>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+      </div>
+      <div class="line"></div>
+    </div>
+
+
+
+    <div class="project-4">
+      <img src="/bookshelf.png" alt="foto van project OceanCleanup" />
+      <div class="content-container">
+      <h2>Squad page FDND jaar 2</h2>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+      </div>
+      <div class="line"></div>
+    </div>
+
+
+    <div class="project-2">
+      <img src="/squadpage4.png" alt="foto van project OceanCleanup" />
+      <div class="content-container">
+      <h2>Squad page FDND jaar</h2>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+      </div>
+      <div class="line"></div>
+    </div>
+
+
+  </div>
 </section>
 
 <style>
   section {
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding-bottom: 4rem;
+    /* background-color: white; */
   }
+
+  .line {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    margin-top: 0.2rem;
+  }
+
+  h1{
+    font-size: 1.1rem;
+    color: black;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+ 
+
+  .marquee {
+    display: flex;
+    overflow: hidden;
+    padding: 2rem;
+    gap: 1rem;
+    z-index: -1;
+  }
+  .marquee-content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: 1rem;
+    font-family: "Helvetica";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+  .scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  h2 {
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .project-container {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .project-container img {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24;
+color: black;
+}
+
+
 </style>

@@ -2,13 +2,27 @@
 </script>
 
 <section>
-  <h2>Contact</h2>
+  <div class="contact">
+    <h2>Neem contact op</h2>
+  </div>
 </section>
 
 <style>
   section {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(220, 220, 220);
+    background-color: #1b82ff;
+  }
+
+  .contact {
+    padding-top: 10rem;
+    padding-left: 1rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: white;
   }
 </style>
