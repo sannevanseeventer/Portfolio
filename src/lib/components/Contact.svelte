@@ -74,4 +74,45 @@
     font-size: 0.7rem;
     padding-right: 1rem;
   }
+
+  @media only screen and (min-width: 1024px) {
+    section {
+    height: auto;
+  }
+
+  h2{
+    font-size: 22.5vw;
+  }
+
+  p{
+    font-size: 1.5rem;
+	margin: 1rem 0rem 0rem 2.5rem;
+	max-width: 35rem;
+}
+
+.footer{
+    margin-bottom: 0rem;
+  }
+
+  .footer a span{
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+
+  }
+
+  li, a{
+    font-size: 2rem;
+  }
+}
 </style>
