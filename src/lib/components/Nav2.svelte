@@ -4,7 +4,7 @@
 
 <section>
   <div class="nav-bar">
-    <h2>Savase</h2>
+    <a href="/"><h2>Savase</h2></a>
 
     <ul>
       <li><a href="/#projects">Terug naar projecten</a></li>
@@ -15,7 +15,7 @@
 <style>
 
   h2 {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     letter-spacing: .2rem;
     margin-left: 1rem;
     color: black;
@@ -34,7 +34,7 @@
     text-decoration: none;
     /* text-transform: uppercase; */
     color: black;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     letter-spacing: .05rem;
     font-size: 0.7rem;
   }
@@ -50,5 +50,9 @@
     align-items: center;
     z-index: 1;
     border-bottom: 1px solid #e7e7e7;
+  }
+
+  .nav-bar a{
+    text-decoration: none;
   }
 </style>

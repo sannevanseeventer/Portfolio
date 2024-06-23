@@ -12,21 +12,19 @@
 
 <p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
 
-<ul>
+<!-- <ul>
   <li><a href="https://repulsive-undershirt-duck.cyclic.app/">Bekijk project</a></li>
-</ul>
+</ul> -->
 
 
-<img src="/oceancleanup.png" alt="foto van project OceanCleanup" />
-<img src="/oceancleanup2.png" alt="foto van project OceanCleanup" />
+<img src="/oceancleanup.webp" alt="foto van project OceanCleanup" />
+<img src="/oceancleanup2.webp" alt="foto van project OceanCleanup" />
 
 
 </div>
 </section>
 
 <style>
-  	@import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
-	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
 
   section{
    width: 100vw;
@@ -52,7 +50,7 @@
     font-family: "poppins";
   }
 
-  ul li{
+  /* ul li{
     list-style-type: none;
     text-decoration: none;
     padding-bottom: 3rem;
@@ -67,7 +65,7 @@
     cursor: pointer;
     font-size: .8rem;
     letter-spacing: .03rem;
-  }
+  } */
 
   img{
     width: 100%;

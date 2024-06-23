@@ -34,7 +34,7 @@ mm.add("(min-width: 600px)", () => {
 //reaches 80% of window height
 details.forEach((detail, index)=> {
 
-	let headline = detail.querySelector("h1")
+	let headline = detail.querySelector("h2")
 	let animation = gsap.timeline()
 	   .to(photos[index], {yPercent:0})
 	   .set(allPhotos[index], {autoAlpha:0})
@@ -59,41 +59,39 @@ details.forEach((detail, index)=> {
 </script>
 
 <section id="projects">
-  <!-- <div class="spacer"></div> -->
 
 <div class="gallery">
 	<div class="left">
 		<div class="desktopContent">
 
-			<div class="desktopContentSection">
-				<h1>The Ocean Cleanup</h1>
-				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor The Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
-			  <a href="https://repulsive-undershirt-duck.cyclic.app/">Bekijk project</a>
+
+      <div class="desktopContentSection">
+        <h2>Online CV</h2>
+				<p>Voor mijn eindproject heb ik een online CV gebouwd waar je doorheen kan scrollen. Op deze website staat informatie over mij, mijn portfolio, ervaring en meer. Alle illustraties heb ik zelf geïllustreerd in Affinity Designer. </p>
+			  <a href="https://sannevanseeventer.nl/" target="_blank">Bekijk website</a>
       </div>
 
 			<div class="desktopContentSection">
-        <h1>SPATwater</h1>
-				<p>Voor een startup genaamd SPATwater heb ik een website mogen bouwen met een speels en creatieve uitstraling. Er zit een parallax in verwerkt en de illustraties heb ik zelf gemaakt. </p>
-			  <a href="https://spatwater.netlify.app/">Bekijk project</a>
+				<h2>Ocean Cleanup</h2>
+				<p>Voor GRRR, een digital agency in Amsterdam, heb ik een concept mogen ontwerpen voor Ocean Cleanup. De bedoeling was om data van de verschillende Interceptors en hoeveelheid opgeruimd plastic zo overzichtelijk mogelijk weer te geven.</p>
       </div>
 
 			<div class="desktopContentSection">
-        <h1>UltiTV</h1>
-				<p>Voor UltiTV heb ik meegewerkt aan een redesign voor het commentators dashboard, om tijdens wedstrijden de score bij te houden en zichzelf in te lezen over de informatie van de spelers. </p>
-			  <a href="https://rich-gray-barnacle-slip.cyclic.app/">Bekijk project</a>
+        <h2>SPATwater</h2>
+				<p>Voor een startup genaamd SPATwater heb ik een website mogen bouwen met een speels en creatieve uitstraling. Er zit een parallax in verwerkt en de illustraties heb ik zelf gemaakt. Ik heb gebruik gemaakt van Sveltekit en een headless CMS.</p>
+			  <a href="https://spatwater.nl/" target="_blank">Bekijk website</a>
+      </div>
+
+			<div class="desktopContentSection">
+        <h2>UltiTV</h2>
+				<p>Voor UltiTV heb ik meegewerkt aan een redesign voor het commentators dashboard voor Ultimate Frisbee. Met dit dashboard kan je tijdens wedstrijden de score bij houden en kunnen de wedstrijd commentatoren zichzelf inlezen over de informatie van de spelers. </p>
      
       </div>
 			<div class="desktopContentSection">
-        <h1>Squad page FDND jaar 2</h1>
-				<p>In mijn tweede studiejaar kreeg ik de opdracht om een  overzichtspagina te ontwerpen met alle online visitekaartjes op basis van een headless CMS en framework. Het idee is een boekenkast met in de boeken de studenten van dat jaar.  </p>
-			  <a href="https://fdnd-yearbooks.netlify.app/">Bekijk project</a>
+        <h2>Boekenkast</h2>
+				<p>In mijn tweede studiejaar kreeg ik de opdracht om een overzichtspagina te ontwerpen met online visitekaartjes op basis van een headless CMS en framework. Het idee is een boekenkast met in de boeken de studenten van dat jaar.  </p>
       </div>
 
-      <div class="desktopContentSection">
-        <h1>Squad page FDND jaar 1</h1>
-				<p>In mijn eerste studiejaar kreeg ik de opdracht om in een team een overzichtspagina te ontwerpen met alle online visitekaartjes van mijn mede studenten. </p>
-			  <a href="https://long-slug-loafers.cyclic.app/">Bekijk project</a>
-      </div>
 
 		</div>
 	</div>
@@ -101,42 +99,30 @@ details.forEach((detail, index)=> {
 	<div class="right">
 
     <div class="desktopPhotos">
+      <div class="desktopPhoto yellow"></div>
 			<div class="desktopPhoto red"></div>
 			<div class="desktopPhoto green"></div>
       <div class="desktopPhoto blue"></div>
 			<div class="desktopPhoto pink"></div>
-      <div class="desktopPhoto yellow"></div>
+
 		</div>
 
 	</div>
 </div>
 
-<!-- <div class="spacer"></div>
-<div class="spacer"></div>
-<div class="spacer"></div> -->
-  <!-- <div class="line" /> -->
-<!-- 
-  <div class="marquee">
-    <div class="marquee-content scroll">
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-    </div>
-    <div class="marquee-content scroll">
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-      <div>Projecten -</div>
-    </div>
-  </div> -->
-
-  <!-- <h1>Projecten</h1> -->
-
   <!-- GOOOOD SECTION -->
   <div class="project-container">
+    <div class="project-2">
+      <img src="/cv-2.webp" alt="mockup van online cv" />
+      <div class="content-container">
+      <h2>Online CV</h2>
+      <a href="/CV"><i class="ri-arrow-right-circle-fill"></i></a>
+      </div>
+      <div class="line"></div>
+    </div>
+
     <div class="project-1">
-     <img src="/oceancleanup.png" alt="foto van project OceanCleanup" />
+     <img src="/oceancleanup.webp" alt="foto van project OceanCleanup" />
 
       <div class="content-container">
       <h2>Ocean Cleanup</h2>
@@ -147,7 +133,7 @@ details.forEach((detail, index)=> {
     </div>
 
     <div class="project-3">
-      <img src="/spatwater.png" alt="foto van project Spatwater" />
+      <img src="/spatwater.webp" alt="foto van project Spatwater" />
       <div class="content-container">
       <h2>SPATwater</h2>
       <a href="/SpatWater"><i class="ri-arrow-right-circle-fill"></i></a>
@@ -159,7 +145,7 @@ details.forEach((detail, index)=> {
 
 
     <div class="project-4">
-      <img src="/ultitv2.png" alt="foto van project OceanCleanup" />
+      <img src="/ultitv2.webp" alt="foto van project OceanCleanup" />
       <div class="content-container">
       <h2>UltiTV</h2>
       <a href="/UltiTv"><i class="ri-arrow-right-circle-fill"></i></a>
@@ -170,20 +156,10 @@ details.forEach((detail, index)=> {
 
 
     <div class="project-4">
-      <img src="/bookshelf.png" alt="foto van project OceanCleanup" />
+      <img src="/bookshelf.webp" alt="foto van project OceanCleanup" />
       <div class="content-container">
-      <h2>Squad page FDND jaar 2</h2>
+      <h2>Boekenkast</h2>
       <a href="/Squad2"><i class="ri-arrow-right-circle-fill"></i></a>
-      </div>
-      <div class="line"></div>
-    </div>
-
-
-    <div class="project-2">
-      <img src="/squadpage3.png" alt="foto van project OceanCleanup" />
-      <div class="content-container">
-      <h2>Squad page FDND jaar 1</h2>
-      <a href="/Squad1"><i class="ri-arrow-right-circle-fill"></i></a>
       </div>
       <div class="line"></div>
     </div>
@@ -212,48 +188,9 @@ details.forEach((detail, index)=> {
     margin-top: .5rem;
   }
 
-  /* h1{
-    font-size: 1.1rem;
-    color: #1273ea;
-    font-family: "Poppins";
-    font-weight: 400;
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-  } */
- 
-/* 
-  .marquee {
-    display: flex;
-    overflow: hidden;
-    padding: 2rem;
-    gap: 1rem;
-    z-index: -1;
-  }
-  .marquee-content {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: space-around;
-    min-width: 100%;
-    gap: 1rem;
-    font-family: "Helvetica";
-    font-size: 2.5rem;
-    text-transform: uppercase;
-  }
-
-  @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(calc(-100% - 1rem));
-    }
-  }
-  .scroll {
-    animation: scroll 30s linear infinite;
-  } */
 
   h2 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-size: .9rem;
     font-weight: 400;
   }
@@ -284,30 +221,30 @@ details.forEach((detail, index)=> {
 
   i{
     color:  #1273ea;
-font-size: 1.6rem;
+font-size: 2rem;
 cursor: pointer;
   }
 
   @media only screen and (min-width: 1024px) {
-/* TEST */
 
 .project-container{
   display: none;
 }
 
 
-.gallery h1 {
-	font-size:clamp(1em, 4vw, 2.5em);
+.gallery h2 {
+	font-size:clamp(1em, 4vw, 2.2em);
   margin-bottom: 1rem;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   font-weight: 500;
 }
 
 .gallery p {
 	font-size:clamp(1.4em, 2.5vw, .9em);
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
 	line-height:1.4;
-  margin-bottom: 1.5rem;
+  max-width: 42rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -323,7 +260,6 @@ cursor: pointer;
 
 .right {
 	height:100vh;
-	/* outline:1px solid purple; */
 	width:50%;
 	display:flex;
 	flex-direction:column;
@@ -337,7 +273,6 @@ cursor: pointer;
 
 .desktopContentSection {
 	min-height:100vh;
-	/* outline:1px solid green; */
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -359,24 +294,21 @@ cursor: pointer;
 }
 
 .red {
-	background: crimson;
-  background-image: url("/oceancleanup.png");
+  background-image: url("/oceancleanup.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .green {
-	background:MediumSeaGreen;
-  background-image: url("/spatwater2.png");
+  background-image: url("/spatwater2.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .blue {
-	background:dodgerblue;
-  background-image: url("/ultitv2.png");
+  background-image: url("/ultitv2.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -384,16 +316,14 @@ cursor: pointer;
 }
 
 .pink{
-	background:deepPink;
-  background-image: url("/bookshelf.png");
+  background-image: url("/bookshelf.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .yellow{
-	background:deepPink;
-  background-image: url("/squadpage3.png");
+  background-image: url("/cv-2.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -402,10 +332,10 @@ cursor: pointer;
 a{
   max-width: 9.5rem;
     text-decoration: none;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     background-color: #1273ea;
     color: white;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
     font-size: 1rem;
     letter-spacing: .03rem;

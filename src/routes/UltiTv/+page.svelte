@@ -13,21 +13,16 @@
   
   <p>Voor UltiTV heb ik meegewerkt aan een redesign voor het commentators dashboard, om tijdens wedstrijden de score bij te houden en zichzelf in te lezen over de informatie van de spelers. </p>
   
-  <ul>
-    <li><a href="https://rich-gray-barnacle-slip.cyclic.app/">Bekijk project</a></li>
-  </ul>
   
-  <img src="/ultitv.png" alt="foto van project OceanCleanup" />
-  <img src="/ultitv2.png" alt="foto van project OceanCleanup" />
+  <img src="/ultitv.webp" alt="foto van project OceanCleanup" />
+  <img src="/ultitv2.webp" alt="foto van project OceanCleanup" />
 
   
   </div>
   </section>
   
   <style>
-        @import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
-  
+
     section{
      width: 100vw;
       height: auto;
@@ -50,23 +45,6 @@
     margin-bottom: 1rem;
     font-size: 0.9rem;
     font-family: "poppins";
-  }
-
-  ul li{
-    list-style-type: none;
-    text-decoration: none;
-    padding-bottom: 3rem;
-  }
-
-  a{
-    text-decoration: none;
-    padding: .3rem .5rem;
-    background-color: #1b82ff;
-    color: white;
-    font-family: "Poppins";
-    cursor: pointer;
-    font-size: .8rem;
-    letter-spacing: .03rem;
   }
   
     img{

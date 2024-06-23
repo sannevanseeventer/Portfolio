@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 500;
+    src: url("/font/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-weight: 700;
+    src: url("/font/Poppins-SemiBold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/font/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/font/BebasNeue-Regular.ttf") format("truetype");
+}

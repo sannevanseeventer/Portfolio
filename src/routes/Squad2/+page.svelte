@@ -12,12 +12,9 @@
   
         <p>In mijn tweede studiejaar kreeg ik de opdracht om een  overzichtspagina te ontwerpen met alle online visitekaartjes op basis van een headless CMS en framework. Het idee is een boekenkast met in de boeken de studenten van dat jaar.  </p>
         
-        <ul>
-          <li><a href="https://fdnd-yearbooks.netlify.app/">Bekijk project</a></li>
-        </ul>
   
-  <img src="/bookshelf.png" alt="foto van project OceanCleanup" />
-  <img src="/bookshelf2.png" alt="foto van project OceanCleanup" />
+  <img src="/bookshelf.webp" alt="foto van project OceanCleanup" />
+  <img src="/bookshelf2.webp" alt="foto van project OceanCleanup" />
   
 
   
@@ -25,9 +22,7 @@
   </section>
   
   <style>
-        @import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
-  
+
     section{
      width: 100vw;
       height: auto;
@@ -52,22 +47,6 @@
     font-family: "poppins";
   }
 
-  ul li{
-    list-style-type: none;
-    text-decoration: none;
-    padding-bottom: 3rem;
-  }
-
-  a{
-    text-decoration: none;
-    padding: .3rem .5rem;
-    background-color: #1b82ff;
-    color: white;
-    font-family: "Poppins";
-    cursor: pointer;
-    font-size: .8rem;
-    letter-spacing: .03rem;
-  }
   
     img{
       width: 100%;

@@ -12,12 +12,9 @@
   
         <p>In mijn eerste studiejaar kreeg ik de opdracht om in een team een overzichtspagina te ontwerpen met alle online visitekaartjes van mijn mede studenten. </p>
         
-        <ul>
-          <li><a href="https://long-slug-loafers.cyclic.app/">Bekijk project</a></li>
-        </ul>
   
-  <img src="/squadpage3.png" alt="foto van project OceanCleanup" />
-  <img src="/squadpage4.png" alt="foto van project OceanCleanup" />
+  <img src="/squadpage3.webp" alt="foto van project OceanCleanup" />
+  <img src="/squadpage4.webp" alt="foto van project OceanCleanup" />
   
 
   
@@ -25,9 +22,7 @@
   </section>
   
   <style>
-        @import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
-  
+
     section{
      width: 100vw;
       height: auto;
@@ -52,23 +47,6 @@
     font-family: "poppins";
   }
 
-  ul li{
-    list-style-type: none;
-    text-decoration: none;
-    padding-bottom: 3rem;
-  }
-
-  a{
-    text-decoration: none;
-    padding: .3rem .5rem;
-    background-color: #1b82ff;
-    color: white;
-    font-family: "Poppins";
-    cursor: pointer;
-    font-size: .8rem;
-    letter-spacing: .03rem;
-  }
-  
     img{
       width: 100%;
       margin-bottom: 1rem;

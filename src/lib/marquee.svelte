@@ -2,6 +2,7 @@
     import { gsap } from "gsap";
     import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
     import { onMount } from "svelte";
+	import { onDestroy } from "svelte";
     
   
     gsap.registerPlugin(ScrollTrigger);
@@ -33,15 +34,26 @@ ScrollTrigger.create({
 	markers:false
 })
     });
+
+	onDestroy(() => {
+
+let triggers = ScrollTrigger.getAll();
+
+triggers.forEach((trigger) => {
+
+  trigger.kill();
+});
+
+});
+
   </script>
-  
   
 <div class="space-50vh lightBG"></div>
 
 <div class="racesWrapper">
 
     <div class="races2">
-		<p>Grafisch vormgever en creatief frontend developer in spé based in Amsterdam. Mijn passie ligt bij design, layout, illustration & motion design.  </p>
+		<p>Junior Frontend Developer & Grafisch Ontwerper based in Amsterdam. Mijn passie ligt bij design, layout, illustration & motion design.  </p>
 	</div>
 
 	<div class="races">
@@ -50,8 +62,8 @@ ScrollTrigger.create({
 		<h2>Seeventer</h2>
 	</div>
 
-
 </div>
+
 
 <div class="space-10vh lightBG"></div>
 
@@ -59,9 +71,6 @@ ScrollTrigger.create({
 
 
   <style>
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Kenia&family=Poppins:ital,wght@0,700;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
-
 .races {
 	width:fit-content;
 	display:flex;
@@ -73,17 +82,18 @@ p{
     color: rgb(0, 0, 0);
     text-align: left;
     margin: auto;
-    font-family: "Poppins";
-    padding: 1rem 1rem 1rem 1rem;
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
 }
 
 .races h2 {
-	font-family: 'Bebas Neue';
+	font-family: 'Bebas Neue', sans-serif;
 	font-size:35vw;
     font-weight: 500;
 	flex-shrink:0;
+	padding-top: 0.5rem;
 	padding-right:0.3em;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     letter-spacing: .2rem;
 	color:black;
 	margin:0;	
@@ -110,7 +120,7 @@ p{
 
 .races h2 {
 	font-size:26.5vw;
-	margin-left: 2rem;
+	margin-left: 4rem;
 }
 
 .races h2:last-of-type {
@@ -119,12 +129,12 @@ p{
 }
 
 .space-50vh {
-	height:25vh;
+	height:20vh;
 }
 
 p{
     font-size: 1.5rem;
-	margin: 3rem 0rem 1rem 2.5rem;
+	margin: 3rem 0rem 0rem 2.5rem;
 	max-width: 35rem;
 }
 
